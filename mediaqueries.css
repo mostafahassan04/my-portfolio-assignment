@@ -1,0 +1,154 @@
+@media screen and (max-width: 426px) {
+  #desktop-nav {
+    display: none;
+  }
+  .nav-links {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+  #hamburger-nav {
+    display: flex;
+  }
+  .logo {
+    font-size: 1.5rem;
+  }
+  #profile {
+    height: 83vh;
+    margin-bottom: 0;
+  }
+
+  .about-container,
+  .experience-container,
+  .projects-container {
+    flex-wrap: wrap;
+    padding: 0 20px;
+    margin-top: 0;
+  }
+  #contact,
+  #projects,
+  section,
+  .section-container,
+  footer nav {
+    height: fit-content;
+  }
+  #experience,
+  .experience-details-container,
+  .projects-details-container {
+    margin-top: 2rem;
+  }
+  #profile,
+  .section-container {
+    display: block;
+  }
+  .arrow {
+    display: none;
+  }
+  section {
+    margin: 0 5%;
+  }
+  .section__pic-container {
+    width: 275px;
+    height: 275px;
+    margin: 0 auto 2rem;
+  }
+  #contact,
+  footer {
+    height: 40vh;
+  }
+  article {
+    font-size: 1rem;
+  }
+  footer nav {
+    margin-bottom: 2rem;
+  }
+  .contact-info-upper-container,
+  .btn-container {
+    flex-wrap: wrap;
+  }
+  .contact-info-container {
+    margin: 0;
+  }
+  .contact-info-container p,
+  .nav-links li a {
+    font-size: 1rem;
+  }
+  .experience-sub-title {
+    font-size: 1.25rem;
+  }
+
+  .section__pic-container {
+    width: auto;
+    height: 46vw;
+    justify-content: center;
+  }
+  .section__text__p2 {
+    font-size: 1.25rem;
+  }
+  .title {
+    font-size: 2rem;
+  }
+  .text-container {
+    text-align: justify;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  section {
+    margin: 0 5%;
+  }
+  .section__pic-container {
+    width: 275px;
+    height: 275px;
+    margin: 0 auto 2rem;
+  }
+  .section-container {
+    display: block;
+  }
+  .about-container,
+  .experience-container,
+  .projects-container {
+    flex-wrap: wrap;
+    padding: 0 20px;
+    margin-top: 0;
+  }
+  #contact,
+  #projects,
+  section,
+  .section-container,
+  footer nav {
+    height: fit-content;
+  }
+  #experience,
+  .experience-details-container,
+  .projects-details-container {
+    margin-top: 2rem;
+  }
+  #profile,
+  .section-container {
+    display: block;
+  }
+  .arrow {
+    display: none;
+  }
+  #contact,
+  footer {
+    height: 40vh;
+  }
+  article {
+    font-size: 1rem;
+  }
+  #profile {
+    margin-bottom: 150px;
+  }
+  .projects-container .details-container {
+    max-width: 373.6px;
+  }
+}
+@media screen and (max-width: 769px) {
+  .projects-container .details-container {
+    max-width: 6000px;
+    justify-self: center;
+    align-self: center;
+  }
+}
